@@ -1,0 +1,16 @@
+marca               VARCHAR(25)                     NOT_NULL
+targa               VARCHAR(7)                      NULL        UNIQUE
+modello             VARCHAR(25)                     NOT_NULL
+anno                YEAR                            NULL
+km_percorsi         INT                 UNSIGNED    NOT_NULL
+colore              VARCHAR(10)                     NULL
+tipo_carburante     VARCHAR(10)                     NOT_NULL
+cambio              VARCHAR(20)                     NOT_NULL
+cilindrata          SMALLINT(8000)      UNSIGNED    NOT_NULL
+prezzo              INT                 UNSIGNED    NOT_NULL
+descrizione         TEXT                            NULL
+numero_telaio       INT                 UNSIGNED    NOT_NULL    UNIQUE
+numero_posti        INT                 UNSIGNED    NOT_NULL
+tipo_veicolo        VARCHAR(20)                     NULL
+numero_portiere     INT                 UNSIGNED    NOT_NULL
+equipaggiamento     VARCHAR(20)                     NULL
